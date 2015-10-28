@@ -1,0 +1,15 @@
+# SLAM DEMO
+
+## Dependencies 
+
+	```bash
+	    sudo apt-get install ros-$ROS-DISTRO$-turtlebot-gazebo ros-$ROS-DISTRO$-turtlebot-indigo ros-$ROS-DISTRO$-turtlebot-simulator
+	```
+## Install
+
+	```bash
+	    cd catkin_ws/src
+		git clone https://github.com/ShibataLab/Turtlebot-SLAM-Demo
+		roscd catkin_ws
+		catkin_make
+	```
